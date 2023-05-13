@@ -9,8 +9,5 @@ package com.yoprogramo.primerproyectojava;
  * @author Usuario
  */
 public class PrimerProyectoJava {
-
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
-    }
+    
 }

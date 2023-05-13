@@ -1,13 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package com.yoprogramo.primerproyectojava;
 
-/**
- *
- * @author Usuario
- */
 public class main {
 
     /**
@@ -15,7 +7,13 @@ public class main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        if
+        Auto auto1 = new Auto();
+        Auto auto2 = new Auto(1, "AA 1100 00", 5, "rojo", true);
+        
+        auto2.encender();
+        auto2.acelerar(60);
+        auto2.frenar(60);
+        auto2.apagar();
     }
     
 }
